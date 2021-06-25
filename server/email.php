@@ -1,7 +1,7 @@
 <?php
 	include "../classes/Email.php";
 
-	$mailer = new Email('smtp.gmail.com','natanknight@gmail.com','Jwb8k::3HVHvNe.','Natanael Aguilar Barreto');
+	$mailer = new Email('smtp.gmail.com','seuemail','suasenha','Natanael Aguilar Barreto');
 	$mailer->addAddress("natanknight@gmail.com","Natanael");
 
 	$corpo = "";
