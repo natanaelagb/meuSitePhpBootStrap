@@ -2,7 +2,7 @@
 	include "../classes/Email.php";
 
 	$mailer = new Email('smtp.gmail.com','seuemail','suasenha','Natanael Aguilar Barreto');
-	$mailer->addAddress("natanknight@gmail.com","Natanael");
+	$mailer->addAddress("email de destino","Natanael");
 
 	$corpo = "";
 	foreach ($_POST as $key => $value) {
